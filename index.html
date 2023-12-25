@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projeto - DEV</title>
+    </head>
+    <body>
+        <h1>Formulário</h1>
+        <form style="border:1px dashed black; 
+                    padding:20px;" method="POST" action="salvaDadosFormlrio.php">
+            <fieldset>
+            <legend>Dados Cadastrais:</legend>
+                <input type="button" id="tbutton" name="tbutton" value="button">
+                <input type="submit" id="tsubmit" name="tsubmit" value="submit"><br>
+
+                selecione uma cor: <input type="color" id="tcolor" name="tcolor" value="#ff0000"><br>
+
+                Data <input type="date" id="tdate" name="tdate"><br>
+
+                time <input type="time" id="ttime" name="ttime"><br>
+
+                Datetime-local <input type="datetime-local" id="tdatetime-local" name="tdatetime-local"><br>
+
+                month <input type="month" id="tmonth" name="tmonte"><br>
+
+                week <input type="week" id="tweek" name="tweek"><br>
+
+                email <input type="email" id="temail" name="temail" placeholder="Digite seu Email"><br>
+
+                file <input type="file" id="tfile" name="tfile" multiple><br>
+
+                number <input type="number" id="tnumber" name="tnumber"><br>
+
+                password <input type="password" id="tpassword" name="tpassword"><br>
+
+                <input type="checkbox" id="carro" name="veiculo" value="carro"><label for="carro">Carro</label>
+                <input type="checkbox" id="moto" name="veiculo" value="Moto">Moto
+                <input type="checkbox" id="bicicleta" name="veiculo" value="bicicleta">Bicicleta<br>
+
+                <input type="radio" id="sim" name="escolha" value="sim">Sim
+                <input type="radio" id="nao" name="escolha" value="nao">Não<br>
+
+                <select id="select" name="select">
+                    <optgroup label="Não Sustentáveis">
+                        <option value="carro">Carro</option>
+                        <option value="moto">Moto</option>
+                    </optgroup>
+                    <optgroup>
+                        <option value="bike">Bicicleta</option>
+                    </optgroup>
+                </select><br>
+
+                Range <input type="range" id="trange" name="trange" min="0" max="20"><br>
+
+                Reset <input type="reset" id="treset" name="treset"><br>
+
+                Search <input type="search" id="www.google.com" name="tsearch"><br>
+
+                Telefone <input type="tel" id="ttel" name="ttel" placeholder="(ddd)9.9999-9999"><br>
+
+                url <input type="url" id="turl" name="turl"><br>
+
+                text <input type="text" id="ttext" name="ttext"><br>
+
+                <textarea name="ttextarea" id="ttextarea" cols="10" rows="3"></textarea><br>
+
+                hidden <input type="hidden" id="thidden" name="thidden" value="valor oculto">
+            </fieldset>            
+        </form>
+    </body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario 01</title>
+    </head>
+    <body>
+        <img src="img/tec01.jpg" height="80">
+
+        <a href="formulario.html">voltar</a>
+
+        <h1>A arte da Tecnologia</h1>
+
+        <form method="post" action="">
+            <fieldset>
+                <legend>Dados Pessoais:</legend>
+                <p>
+                    <label for="cpf">CPF:</label><br>
+                    <input type="text" id="cpf" name="cpf" size="14" maxlength="14">
+                </p>
+
+                <p>
+                    <label for="nome">Nome Completo (Sem Abreviações):</label><br>
+                    <input type="text" id="nome" name="nome" size="60">
+                </p>
+
+                <p>
+                    <label for="datanasc">Data de Nascimento:</label><br>
+                    <input type="date" id="datanasc" name="datanasc" size="10">
+                </p>
+
+                <p>
+                    <label for="email1">Email1:</label><br>
+                    <input type="text" id="email1" name="email1" size="40">
+                </p>
+
+                <p>
+                    <label for="fone">Telefone:</label><br>
+                    <input type="text" id="fone" name="fonne" size="10">
+                </p>
+
+                <p>
+                    <label for="genero">Gênero:
+                    <input type="radio" id="genero" name="genero" value="famale"> Feminino
+                    <input type="radio" id="genero" name="genero" value="male"> Masculino
+                    </label>
+                </p>
+            </fieldset>
+
+            <fieldset name="Dados_Endereco">
+                <legend>Endereço:</legend>
+                <p>
+                    <label for="cep">CEP: <br>
+                        <input type="text" id="cep" name="cep" size="5" maxlength="5"> -
+                        <input type="text" id="cep" name="cep" size="3" maxlength="3">
+                    </label>
+                </p>
+
+                <p>
+                    <label for="ender">Endereço Completo:</label><br>
+                    <input type="text" id="ender" name="ender" size="120">
+                </p>
+
+                <p>
+                    <label for="bairro">Bairro:</label><br>
+                    <input type="text" id="bairro" name="bairro" size="60">
+                </p>
+
+                <p>
+                    <label for="cidade">Cidade:</label><br>
+                    <input type="text" id="cidade" name="cidade" size="70">
+                </p>
+
+                <p>
+                    <label for="estado">Estado:</label><br>
+                    <input type="text" id="estado" name="estado" size="2" maxlength="2">
+                </p>
+
+                <input type="submit" value="Enviar Dados">
+            </fieldset>
+        </form>
+    </body>
+</html>
